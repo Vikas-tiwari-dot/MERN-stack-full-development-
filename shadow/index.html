@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: #edcabd;
+            display: flex;
+            box-sizing: border-box;
+            height: 1000px;
+            margin: 2px;
+            padding: 2px;
+            flex-wrap: wrap;
+            border:5px solid black;
+            justify-content: space-between;
+            align-items: center;
+        }
+       .box{
+            width: 400px;
+            height: 400px;
+            background-color: #6f9c70;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            font-size: 20px;
+            border: 2px solid black;
+            padding: 10px;
+            align-items: center;
+            text-align: center;
+            overflow: auto;
+
+            /* box-shadow: 10px 15px 5px brown; <!-- Added box shadow for better appearance -->     */
+
+            /* box-sizing: border-box; <!-- Ensures padding and border are included in width and height -->     */
+            
+            box-shadow: -10px 15px 5px rgb(69, 31, 196);
+        }
+        #head1{
+            text-shadow: 2px 3px 2px rgb(199, 33, 33);
+        }
+        .img1{
+            border: 3px solid black;
+            box-shadow: 5px 5px 5px rgb(33, 199, 199);
+            margin-bottom: 10px;
+            opacity: 0.8; /* Added opacity for transparency effect */
+        }
+    </style>
+</head>
+<body>
+    <div class = "container">
+        <div class="box">
+            <img src="image.png" alt="Image Description" class="img1" width="210" height="210">
+            <h2 id="head1">Welcome to Flexbox</h2>
+            
+            <p id="head1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, 
+                molestiae! Corrupti recusandae quisquam dicta. Consequatur inventore, 
+                sapiente ipsum vitae possimus perspiciatis animi ipsa sequi voluptatibus 
+                labore, illum cupiditate molestiae sed aliquam id dolore blanditiis dignissimos
+                 a natus esse aliquid alias quo obcaecati. Dicta, aperiam laborum. Eos magnam 
+                 dolore eum, eaque et consequuntur sunt modi totam at, blanditiis dignissimos 
+                 aliquam aspernatur voluptatum perferendis voluptatem tempora fugiat sint nobis 
+                 rerum quis, perspiciatis laudantium temporibus quae. Mollitia distinctio minus 
+                 repudiandae labore, libero, fugiat reiciendis natus deleniti accusamus praesentium, 
+                 eaque dignissimos culpa possimus hic blanditiis doloribus iure vitae temporibus 
+                 consectetur iusto error exercitationem est! 
+            </p>
+
+        </div>
+    </div>   
+</body>
+</html>

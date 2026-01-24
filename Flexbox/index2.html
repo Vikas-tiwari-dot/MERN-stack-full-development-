@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    body {
+  font-family: sans-serif;
+  margin: 0;
+}
+header {
+  background: purple;
+  height: 100px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+section {
+  zoom: 0.8;
+}
+article {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+}
+section {
+  display: flex;
+}
+/*flex here */
+body {
+  font-family: sans-serif;
+  width: 90%;
+  max-width: 960px;
+  margin: 10px auto;
+}
+div {
+  height: 100px;
+  border: 1px solid black;
+}
+button {
+  font-size: 18px;
+  line-height: 1.5;
+  width: 15%;
+}
+/* Add your flexbox CSS below here */
+div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+article:nth-of-type(3) div:first-child {
+  flex: 1 100px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+button {
+  flex: 1 auto;
+  margin: 5px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+div{
+    padding: 10px;
+  margin: 10px;
+  background: aqua;
+}
+   </style>
+</head>
+<body>
+    <header>
+  <h1>Sample flexbox example</h1>
+</header>
+<section>
+  <article>
+    <h2>First article</h2>
+    <p>Content…</p>
+  </article>
+  <article>
+    <h2>Second article</h2>
+    <p>Content…</p>
+  </article>
+  <article>
+    <h2>Third article</h2>
+    <p>Content…</p>
+  </article>
+  <div>
+  <button>Smile</button>
+  <button>Laugh</button>
+  <button>Wink</button>
+  <button>Shrug</button>
+  <button>Blush</button>
+  
+</div>
+</section>
+
+</body>
+</html>

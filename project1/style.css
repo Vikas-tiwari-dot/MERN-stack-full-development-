@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    height: 12vh;
+    width: 100vw;
+    overflow-x: none;
+
+}
+.navContainer{
+    width: 100vw;
+    /* background-color: rgba(74, 87, 197, 0.696); */
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, 
+    rgba(87, 199, 133, 1) 50%, rgba(139, 99, 214, 1)
+    84%, rgba(228, 220, 86, 1) 97%, rgba(237, 221, 83, 1) 100%);
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+nav{
+    width: 100%;
+    overflow-x: none;
+}
+#navList{
+    width: 100%;
+    padding: 15px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    list-style: none;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navLogo{
+    font-style: 2.8rem;
+    color: azure;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+#navItems{
+    display: flex;
+    gap: 40px;
+
+}
+#footerBox{
+    color: blue;
+    text-align: center;
+}
+.contentBox{
+    width:70%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.rightBox img{
+    height: 300px;
+    border-radius: 20px;
+    width: 350px;
+    transition: all 0.6s linear 0s ;
+}
+.rightBox img:hover{
+transform: scale(1.1);
+}
+.leftBox{
+    display: flex;
+    flex-direction: column;
+}
