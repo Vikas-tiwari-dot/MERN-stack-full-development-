@@ -1,0 +1,30 @@
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Object Example</title>
+</head>
+<body>
+  <button id="myButton">Click Me</button>
+
+  <script>
+    const button = document.getElementById('myButton');
+
+    button.addEventListener('click', function(event) {
+      console.log('Event type:', event.type);                 
+      console.log('Target element:', event.target);
+      console.log('Mouse X coordinate:', event.clientX);
+      console.log('Mouse Y coordinate:', event.clientY);
+    });
+
+    /* Output : 
+      Event type: click
+      Target element: <button id="myButton">Click Me</button>
+      Mouse X coordinate: 47
+      Mouse Y coordinate: 17
+    */
+  </script>
+</body>
+</html>

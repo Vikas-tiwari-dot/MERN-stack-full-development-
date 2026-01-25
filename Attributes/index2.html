@@ -1,0 +1,22 @@
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>setAttribute() Example</title>
+</head>
+<body>
+
+    <p id="demo">This is a paragraph.</p>
+
+    <button onclick="addAttribute()">Add Attribute</button>
+
+    <script>
+        function addAttribute() {
+            var para = document.getElementById("demo");
+            para.setAttribute("style", "color: red; font-size: 20px;");
+            para.setAttribute("class", "highlight");
+        }
+    </script>
+
+</body>
+</html>
