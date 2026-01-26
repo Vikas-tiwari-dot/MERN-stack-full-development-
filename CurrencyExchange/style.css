@@ -13,8 +13,14 @@ body{
     background-color: white;
     padding: 2rem;
     border-radius: 1rem;
-    min-height: 45vh;
-    width: 40vh;
+    min-height: 50vh;
+    width: 60vh;
+}
+.box{
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    width: 25vh;
+    cursor: pointer;
 }
 from{
     margin: 2rem 0 1rem 0;
@@ -25,7 +31,7 @@ input{
     width: 100%;
     border: none;
     outline: none;
-    border-radius: 0.75rem;
+    border-radius: 0.70rem;
 }
 from-input{
     border: 1px solid lightgray;
@@ -54,7 +60,7 @@ from-input{
     background-color: #fefefe;
 }
 .select-container select{
-    font-size: 1rem;
+    font-size: 0.7rem;
     width: auto;
 }
 .msg{
@@ -66,4 +72,13 @@ form button{
     color: #fff;
     font-size: 1.15rem;
     cursor: pointer;
+}
+.flag1{
+ height: 2.5rem;
+ width: 90vh;   
+
+}
+.flag2{
+height: 2.5rem;
+width: 90vh;
 }

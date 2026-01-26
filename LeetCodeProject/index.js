@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Fetch User Details
     // =========================
     async function fetchUserDetails(username) {
-        const url = `https://alfa-leetcode-api.onrender.com/`;
+        const url = `https://leetcode-stats-api.herokuapp.com/${username}`;
 
         try {
             searchButton.textContent = "Searching...";
