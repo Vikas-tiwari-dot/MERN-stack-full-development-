@@ -1,0 +1,26 @@
+.Usercaontainer{
+    background-color: rgb(211, 225, 225);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    
+}
+#userimg{
+    width: auto;
+    height: auto;
+   border-radius: 50%;
+
+
+}
+#UserName{
+    font-weight: bold;
+    text-align: center;
+
+}
+#userDes{
+    font-weight: bold;
+    text-align: center;
+}
